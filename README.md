@@ -24,7 +24,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Create a Resource Group
 - Create a Windows 10 Virtual Machine (VM) with 2-4 Virtual CPUs
-  
+- Open Installation Files
+- Install / Enable IIS in Windows WITH
+CGI and Common HTTP Features
+- AND IIS Management Console
+- From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+- From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+- Create the directory C:\PHP
+- From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
 
 
 <h2>Installation Steps</h2>
@@ -46,7 +53,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nbjQx1c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
